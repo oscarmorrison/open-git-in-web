@@ -1,0 +1,8 @@
+echo "Opening git repo"
+  giturl=$(git config --get remote.origin.url)
+  giturl=${giturl/\.git}
+  giturl=${giturl//[:]/\/}
+  giturl=${giturl/\git@}
+  protocol="http://"
+  giturl="$protocol$giturl"
+  open $giturl
