@@ -1,14 +1,15 @@
 openInBitBucket
 ===============
+A small bash script that opens a repo corresponding webpage hosted at either Github or Bitbucket. 
 
-A little bash script that I wrote that lets you open a git repo in the browser at bitbucket
+This is useful if you quick want to change some repository settings, add collaborators, or anything else that you need the web interface for. 
 
 ## Instructions ##
 
-To use this script add to a folder in your path. I have a folder called '''.scripts''' in my home directory,
-that I have added to my path.
+To use this script add to a folder in your path. I have a folder called '''.scripts''' in my home directory. 
+It is important to then add this to your path (.bash_profile or .bash_rc)
 
-To do this 
+First you need to create a scripts (hidden) directory and add this directory to your path such that terminal will be able to make use of the script automatically. 
 
 ```
 cd ~
@@ -26,7 +27,11 @@ You can do this by typing
 ```
 source .bash_profile
 ```
-now just clone repo, or copy https://github.com/oscarmorrison/openInBitBucket/blob/master/openGit
+
+Next you need to clone or download the script:
+
+clone repo:    `https://github.com/oscarmorrison/openInBitBucket/blob/master/openGit`
+or download zip: `[download](https://github.com/oscarmorrison/open-git-in-web/archive/master.zip)`
 to your new scripts directory
 now you need to make executable
 ```
