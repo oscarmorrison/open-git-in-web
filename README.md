@@ -1,4 +1,4 @@
-openInBitBucket
+open-git-in-web
 ===============
 A small bash script that opens a repo corresponding webpage hosted at either Github or Bitbucket. 
 
