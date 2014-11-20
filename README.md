@@ -31,7 +31,7 @@ source .bash_profile
 Next you need to clone or download the script:
 
 clone repo:    `https://github.com/oscarmorrison/openInBitBucket/blob/master/openGit`
-or download zip: `(download)[https://github.com/oscarmorrison/open-git-in-web/archive/master.zip]`
+or download zip: `[ download ](https://github.com/oscarmorrison/open-git-in-web/archive/master.zip) `
 to your new scripts directory
 now you need to make executable
 ```
