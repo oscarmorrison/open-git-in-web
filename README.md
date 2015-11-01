@@ -38,7 +38,7 @@ now you need to make executable
 chmod 775 openGit
 ```
 
-Now all you need to do is go to a bitbucket hosted repo and type
+Now all you need to do is go to a bitbucket or github hosted repo and type
 ```
 openGit
 ```
