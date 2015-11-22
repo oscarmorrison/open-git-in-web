@@ -1,8 +1,10 @@
 echo "Opening git repo"
 giturl=$(git config --get remote.origin.url)
+giturl=$( tr '[A-Z]' '[a-z]' <<< $giturl)
 
-if [[ $giturl == *"github"* ]]
+if [[ $giturl == *"http"* ]]
 then
+	echo "Opening HTTP"
   open $giturl
 else
 	giturl=${giturl/\.git}
@@ -10,5 +12,8 @@ else
 	giturl=${giturl/\git@}
 	protocol="http://"
 	giturl="$protocol$giturl"
+	echo "Opening SSH Git"
 	open $giturl
 fi
+
+
